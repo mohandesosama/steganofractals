@@ -29,11 +29,13 @@ the following part of the code
   leftb_Rarm_point=leftb_center_point +leftb_Rarm_lth*leftb_Rarm_direction
   self.branch_vertices.append([leftb_center_point,leftb_Rarm_point])
 ```
-the vertices of  
+calculates the vertices of 
 + center of the left branch, leftb_center_point
 + vertex of end of left sub branch(arm),leftb_Larm_point
 + vertex of end of right sub branch(arm),leftb_Rarm_point  
-Notice that they are changed according to the b_angle
+and then store them in a list "branch_vertices". Notice that they are changed according to the b_angle  
+The angle_reduction_ratio is important for making the tree looking toward the sky and not spreading in a circle around the tree root. 
+
 ## Steganogrpahic Fractal Paper
 To cite our work use   
 _Hosam, O. (2018, December). Hiding Bitcoins in Steganographic Fractals. In 2018 IEEE International Symposium on Signal Processing and Information Technology (ISSPIT) (pp. 512-519). IEEE._  

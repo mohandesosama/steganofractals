@@ -44,6 +44,12 @@ if depth > 1:
             self.calc_vertices(leftb_Rarm_point,leftb_Rarm_direction,lth*self.resize_ratio,depth-1,b_angle*self.angle_reduction_ratio)
 ```
 
+Here is sample of the created fractal trees
+![attractor](https://github.com/mohandesosama/steganofractals/blob/master/figures/rand_tree.png)  
+Notice that, these are clear trees without secure data, (a) Fixed angles= 45 (b) angelses
+started with 45 with reduction ratio 0.56 for each level. (c) angles start
+with random value between 55, 75 and ends with random value between
+25, 45. reduction ration is 0.40.
 ## Instructions
 •	Learn openGL with python  
 https://code.visualstudio.com/docs/python/python-tutorial   

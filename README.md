@@ -15,7 +15,7 @@ to build up the tree, the most important function is "calc_vertices" which creat
 ```python
  def calc_vertices(self,point,source_direction,lth,depth,b_angle):
  ```
- it takes the b_angle (the beginning angle) and the level of the tree "depth" and the startup length of the branches "lth" and the source direction "source_direction" which is the direction of the root branch. the output of the function is the list of the created tree. OpenGL will take this list and draw it on the screen. 
+ it takes the b_angle (the beginning angle) and the level of the tree "depth" and the startup length of the branches "lth" and the source direction "source_direction" which is the direction of the root branch. the output of the function is the list of the created tree vertices. OpenGL takes this list and draw it on the screen. 
 the following part of the code 
 ```python
  #left branch
@@ -36,11 +36,6 @@ calculates the vertices of
 and then store them in a list "branch_vertices". Notice that they are changed according to the b_angle  
 The angle_reduction_ratio is important for making the tree looking toward the sky and not spreading in a circle around the tree root. 
 
-## Steganogrpahic Fractal Paper
-To cite our work use   
-_Hosam, O. (2018, December). Hiding Bitcoins in Steganographic Fractals. In 2018 IEEE International Symposium on Signal Processing and Information Technology (ISSPIT) (pp. 512-519). IEEE._  
-Download PDF version of the paper at https://www.researchgate.net/profile/Osama_Hosam2/publication/331204356_Hiding_Bitcoins_in_Steganographic_Fractals/links/5c727639a6fdcc47159670d0/Hiding-Bitcoins-in-Steganographic-Fractals.pdf
-
 ## Instructions
 •	Learn openGL with python  
 https://code.visualstudio.com/docs/python/python-tutorial   
@@ -53,3 +48,8 @@ window = glutCreateWindow(b"I like this")
 ```
 ## References
 Markdown cheatsheet https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+
+## Steganogrpahic Fractal Paper
+To cite our work use   
+_Hosam, O. (2018, December). Hiding Bitcoins in Steganographic Fractals. In 2018 IEEE International Symposium on Signal Processing and Information Technology (ISSPIT) (pp. 512-519). IEEE._  
+Download PDF version of the paper at https://www.researchgate.net/profile/Osama_Hosam2/publication/331204356_Hiding_Bitcoins_in_Steganographic_Fractals/links/5c727639a6fdcc47159670d0/Hiding-Bitcoins-in-Steganographic-Fractals.pdf

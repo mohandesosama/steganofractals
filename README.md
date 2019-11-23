@@ -30,9 +30,9 @@ the following part of the code
   self.branch_vertices.append([leftb_center_point,leftb_Rarm_point])
 ```
 the vertices of  
-..* center of the left branch, leftb_center_point
-..* vertex of end of left sub branch(arm),leftb_Larm_point
-..* vertex of end of right sub branch(arm),leftb_Rarm_point  
++ center of the left branch, leftb_center_point
++ vertex of end of left sub branch(arm),leftb_Larm_point
++ vertex of end of right sub branch(arm),leftb_Rarm_point  
 Notice that they are changed according to the b_angle
 ## Steganogrpahic Fractal Paper
 To cite our work use   

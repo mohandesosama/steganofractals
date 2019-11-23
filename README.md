@@ -34,7 +34,13 @@ calculates the vertices of
 + vertex of end of left sub branch(arm),leftb_Larm_point
 + vertex of end of right sub branch(arm),leftb_Rarm_point  
 and then store them in a list "branch_vertices". Notice that they are changed according to the b_angle  
-The angle_reduction_ratio is important for making the tree looking toward the sky and not spreading in a circle around the tree root. 
+The angle_reduction_ratio is important for making the tree looking toward the sky and not spreading in a circle around the tree root.  
+The above calculations are repeated recursively untill we reach the last tree level. The following code shows the recursive function for the left brach
+```python
+if depth > 1:
+            self.calc_vertices(leftb_Larm_point,leftb_Larm_direction,lth*self.resize_ratio,depth-1,b_angle*self.angle_reduction_ratio)
+            self.calc_vertices(leftb_Rarm_point,leftb_Rarm_direction,lth*self.resize_ratio,depth-1,b_angle*self.angle_reduction_ratio)
+```
 
 ## Instructions
 •	Learn openGL with python  

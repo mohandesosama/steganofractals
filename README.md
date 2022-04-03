@@ -1,4 +1,14 @@
-# Steganographic Fractals
+# Hiding Bitcoins in Steganographic Fractals
+
+To cite our work use   
+_Hosam, O. (2018, December). Hiding Bitcoins in Steganographic Fractals. In 2018 IEEE International Symposium on Signal Processing and Information Technology (ISSPIT) (pp. 512-519). IEEE._  
+[Download Paper in PDF](https://www.researchgate.net/profile/Osama_Hosam2/publication/331204356_Hiding_Bitcoins_in_Steganographic_Fractals/links/5c727639a6fdcc47159670d0/Hiding-Bitcoins-in-Steganographic-Fractals.pdf)
+
+## Abstract
+Abstract:
+Digital coin became an interesting subject for research in the last few years. For security reasons, the technical detail of digital coins (for example Bitcoin) are studied to stop security breaches. Bitcoin work dependently on a blockchain. Blockchain holds the record of all user's transactions. The user opens a wallet with public/private key pairs. The user then buy/sell his coin through the wallet. The security of the user's wallet depends on how secure the user's private key. Some people hide bitcoins (which in this case refers to the private key) in their house. Others hide the security key into a plain-text. In this paper we proposed a robust steganography technique to hide bitcoins into steganographic fractals. Steganographic fractal is our novel approach, it is not explored before. The fractal tree is selected for its simple recursive structure. The private-key bit stream is hidden by discretizing the angles and lengths of the tree branches. The tree can then be printed without the fear of being lost or stolen. The proposed approach showed high security and robustness to attacks.
+
+## Objectives
 The objective is to embedd a secure message into tree fractals.  
 The secure message is in binary form "010100011000" and the carrier image is an image created with tree fractals algorithm  
 the idea is to descritize angles and branch lengthes to go with the values of the secure message. For example obtuse angle can represent 1   
